@@ -24,10 +24,8 @@ signature2 = ECDSA::Format::SignatureDerString.decode(strict_decode64(signature_
 File.write('./data.json', JSON.dump(
 'sig_1.r': signature1.r,
 'sig_1.s': signature1.s.to_s(16),
-'sig_1': signature1,
 'sig_2.r': signature2.r,
 'sig_2.s': signature2.s.to_s(16),
-'sig_2': signature2,
 'hash1': l1,
 'hash2': l2,
 'order': $group.order))
