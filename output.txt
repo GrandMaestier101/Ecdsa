@@ -1,0 +1,2 @@
+sig #<ECDSA::Signature:0x00000246b77c82b0>
+cookie YWRtaW4tLTBEAiAvi95NGgcgk1W0pyUKXFEo6IuEvdxhmrfLqNVpskDv5AIgbRPQ1J7x0f2HL5a71UKTi7YgM019b6n+uVghDsHolGI=

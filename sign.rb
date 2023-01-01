@@ -15,8 +15,8 @@ end
 def strict_decode64(str)
   str.unpack1("m0")
 end
-l1 = sign("ramu")
-l2 = sign("ravi")
+l1 = sign("ravi")
+l2 = sign("ramu")
 signature_der_string1 = "MEUCIQDkk9vxwQ2A81geSQSTCxQEzGwTkA7gdYR0+pSr6MTNEwIgYYlY8KvUWFv3M1S2gg1xbKAKUUYYTGhuE2hIHub6q/o="#ravi
 signature_der_string2 = "MEUCIQDkk9vxwQ2A81geSQSTCxQEzGwTkA7gdYR0+pSr6MTNEwIgGheiDMU4TXVOM420FmrRGHBgNkn+7dEZSwqaNZZT8WM="#ramu
 signature1 = ECDSA::Format::SignatureDerString.decode(strict_decode64(signature_der_string1))
