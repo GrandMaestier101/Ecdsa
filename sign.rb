@@ -5,6 +5,7 @@ require 'securerandom'
 require 'sinatra/contrib/all'
 require 'base64'
 require 'json'
+
 $group = ECDSA::Group::Secp256k1
 
 def sign(str)

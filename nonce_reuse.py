@@ -21,7 +21,7 @@ privateKey = N * D % ORDER
 
 json.dump(
     {
-        "gx": int(privateKey),
+        "privateKey": int(privateKey),
     },
     open("output.json", "w"),
 )
